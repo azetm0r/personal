@@ -14,17 +14,29 @@ body {
   background-color: #04040482;
   color: #fff;
   position: relative;
-  background:#000000a6;
-  
+  background: #000000a6;
+
 }
+
+.header-top h4 {
+  display: none;
+}
+
+.logo img {
+  width: 50px;
+  height: 100px;
+
+}
+
 
 body::before {
   content: "";
   position: fixed;
-  
+
   background-color: rgba(4, 4, 4, 0.825);
-  background:  url("../img/bg.jpg") top right no-repeat;
+  background: url("../img/bg_1080x720_1.webp") top right no-repeat;
   background-size: cover;
+  backdrop-filter: blur(10px);
   left: 0;
   right: 0;
   top: 0;
@@ -55,6 +67,8 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+
+
 }
 
 /*--------------------------------------------------------------
@@ -81,6 +95,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+
 }
 
 #header h1 a,
@@ -88,6 +103,7 @@ h6 {
   color: #fff;
   line-height: 1;
   display: inline-block;
+
 }
 
 #header h2 {
@@ -168,7 +184,6 @@ h6 {
 
 #header.header-top h1 {
   margin-left: auto;
- 
   font-size: 36px;
 }
 
@@ -180,6 +195,7 @@ h6 {
 #header.header-top .container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #header.header-top .navbar {
@@ -188,12 +204,14 @@ h6 {
 
 @media (max-width: 768px) {
   #header.header-top {
-    height: 60px;
+    height: 70px;
   }
 
   #header.header-top h1 {
     font-size: 26px;
-    margin-right: 40px;
+    margin-top: 20px;
+    padding: 50px;
+
   }
 }
 
