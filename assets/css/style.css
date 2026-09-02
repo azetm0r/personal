@@ -169,7 +169,7 @@ h6 {
 
 /* Header Top */
 #header.header-top {
-  height: 80px;
+  height: 70px;
   position: fixed;
   left: 0;
   top: 0;
@@ -184,7 +184,7 @@ h6 {
 
 #header.header-top h1 {
   margin-left: auto;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 #header.header-top img {
@@ -196,6 +196,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 70px;
 }
 
 #header.header-top .navbar {
@@ -210,7 +211,7 @@ h6 {
   #header.header-top h1 {
     font-size: 26px;
     margin-top: 20px;
-    padding: 50px;
+    padding: 0 40px;
 
   }
 }
@@ -405,7 +406,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #e4d2d2;
   font-family: "Poppins", sans-serif;
 }
 
