@@ -168,6 +168,7 @@ h6 {
 
 #header.header-top h1 {
   margin-left: auto;
+ 
   font-size: 36px;
 }
 
@@ -192,6 +193,7 @@ h6 {
 
   #header.header-top h1 {
     font-size: 26px;
+    margin-right: 40px;
   }
 }
 
