@@ -21,6 +21,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 95px;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -1557,6 +1558,18 @@ button {
   }
 }
 @media (max-width: 480px) {
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  .container,
+  .nav-wrap,
+  .hero-grid,
+  .hero-copy,
+  .hero-visual {
+    max-width: 100%;
+  }
   .brand-mark,
   .contact-mark {
     width: 38px;
@@ -1585,6 +1598,22 @@ button {
   .button {
     width: 100%;
   }
+  .hero-visual {
+    overflow: hidden;
+    margin: 0;
+  }
+  .orbit-one,
+  .orbit-two {
+    max-width: 100%;
+  }
+  .orbit-one {
+    width: min(77vw, 270px);
+    height: min(55vw, 230px);
+  }
+  .orbit-two {
+    width: min(70vw, 240px);
+    height: min(72vw, 300px);
+  }
   .hero-meta {
     flex-wrap: wrap;
     gap: 12px;
@@ -1609,6 +1638,17 @@ button {
   }
   .project-info {
     padding: 18px;
+  }
+  .floating-chip {
+    max-width: 118px;
+    font-size: 9px;
+    padding: 8px 10px;
+  }
+  .chip-top {
+    right: 0;
+  }
+  .chip-bottom {
+    left: 0;
   }
 }
 @media (max-width: 390px) {
